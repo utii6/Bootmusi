@@ -14,8 +14,6 @@ CHANNEL_LINK = "https://t.me/qd3qd"
 PORT = int(os.environ.get("PORT", 10000))
 USERS_FILE = "users.txt"
 
-WEBHOOK_PATH = f"/webhook/{TOKEN}"
-WEBHOOK_URL = f"https://x-o-bot.onrender.com{WEBHOOK_PATH}"
 # ------------------------------------------------------
 
 logging.basicConfig(level=logging.INFO)
